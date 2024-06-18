@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+:root {
+   --header-height: 4rem;
+
+ /* COLORS */
+   --container-color: #ededed;
+   --body-color: #ededed;
+   --text-color: #010101;
+   --title-color: #611b1e;
+   --title-color-dark: #2c130f;
+
+ /* FONTS */
+   --body-font: "Raleway", sans-serif;
+   --font-normal: 400;
+   --font-medium: 500;
+   --font-semi-bond: 600;
+
+ /* Z-INDEX */
+   --z-tooltip: 10;
+   --z-fixed: 100;
+   --z-modal: 1000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: var(--body-font);
+    font-size: var(--font-normal);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bond);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.section__text {
+  font-size: 18px;
+  color: var(--title-color);
+}
+
+.section__subtitle {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4rem;
+}
+.section__text,
+.section__subtitle {
+    text-align: center;
+}
+
+.container {
+    max-width: 958px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--body-color);
+    padding: 1.25rem 1.4rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+    transition: 0.9s;
+}
+
+.button:hover {
+    background-color: var(--title-color-dark);
+}
+
+.button_icon {
+    margin-left: 10px;
+}
+
+.button__flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        margin: 0 50px;
+    }
+    .button {
+        padding: 1rem 1.75rem;
+    }
+    .button_icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 2rem 0 4rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        margin: 0 40px;
+    }
+}
