@@ -9,10 +9,16 @@
     align-items: center;
 }
 
+.highlight {
+  color: #9b1d09;
+  font-size: 20px;
+}
+
 .home__social {
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
+    justify-content: start; 
 }
 
 .home__social-icon {
@@ -189,8 +195,8 @@
   }
   .home__img {
     box-shadow: inset 0 0 0 6px rgb(225 225 225 / 30%);
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
   }
   .home__scroll {
     display: none;
