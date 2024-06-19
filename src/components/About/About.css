@@ -19,7 +19,8 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
+    background-color: #fff;
+    box-shadow: 9px -11px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid rgb(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
