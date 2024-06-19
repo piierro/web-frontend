@@ -7,7 +7,8 @@ function Data() {
         <h1 className="home__title">KURO</h1>
         <h3 className="home__subtitle">Frontend Developer</h3>
         <p className="home__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque vero quam tempore incidunt aspernatur mollitia nobis.
+           I'm Kira, a 20-year-old russian (Freelance)<br />
+           <span className="highlight">Front-end developer.</span>
         </p>
         <a href="#contact" className="button button__flex">
             Say something 

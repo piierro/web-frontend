@@ -70,12 +70,13 @@ img {
 }
 
 .section {
-    padding: 6rem 0 2rem;
+    padding: 7.5rem 0 2rem;
 }
 
 .section__text {
-  font-size: 18px;
+  font-size: 45px;
   color: var(--title-color);
+  margin-bottom: 10px;
 }
 
 .section__subtitle {
@@ -137,8 +138,14 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0 0 var(--header-height) 0;
+    }
     .section {
         padding: 2rem 0 4rem;
+    }
+    .section__subtitle {
+        margin-bottom: 50px;
     }
 }
 
