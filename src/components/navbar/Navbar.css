@@ -4,7 +4,9 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--container-color);
+    background-color: #f0f0f0;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 2rem;
 }
 
 .nav {
@@ -36,9 +38,10 @@
     position: relative;
 }
 
+.active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
-    font-size: 22px;
+    font-size: 20px;
     transition: .4s;
 }
 
@@ -50,7 +53,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--title-color-dark); /* Измените цвет подчеркивания по вашему желанию */
+    background-color: var(--title-color-dark);
     transform-origin: bottom right;
     transition: transform .4s ease-out;
     margin-bottom: -2px;

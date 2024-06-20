@@ -8,17 +8,17 @@ const Frontend = () => {
           <div className="skills__group">
               <div className="skills__data">
                   <h3 className="skills__name">HTML</h3>
-                  <span className="skills__level">Basic</span>
+                  <span className="skills__level">Advanced</span>
               </div>
 
               <div className="skills__data">
                   <h3 className="skills__name">CSS</h3>
-                  <span className="skills__level">Basic</span>
+                  <span className="skills__level">Intermediate</span>
               </div>
 
               <div className="skills__data">
                   <h3 className="skills__name">JavaScript</h3>
-                  <span className="skills__level">Basic</span>
+                  <span className="skills__level">Advanced</span>
               </div>
 
               <div className="skills__data">
@@ -33,7 +33,7 @@ const Frontend = () => {
 
               <div className="skills__data">
                   <h3 className="skills__name">TypeScript</h3>
-                  <span className="skills__level">Basic</span>
+                  <span className="skills__level">Intermediate</span>
               </div>
           </div>
       </div>
