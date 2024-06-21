@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Info from './Info';
+import photo from '../../assets/photo.jpg'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-            <img src="" alt="about" className='about__img' />
+            <img src={photo} alt="about" className='about__img' />
             <div className="about__data">
                 <Info />
                 <p className="about__description">

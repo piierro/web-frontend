@@ -124,6 +124,21 @@ img {
     align-items: center;
 }
 
+.projects {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+    padding-bottom: 4rem;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: var( --exrta-light);
+}
+
 @media screen and (max-width: 992px) {
     .container {
         margin: 0 50px;

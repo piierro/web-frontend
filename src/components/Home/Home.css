@@ -11,7 +11,7 @@
 
 .highlight {
   color: #9b1d09;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .home__social {
@@ -33,24 +33,6 @@
 .home__title {
     font-size: 55px;
     margin-bottom: 5px;
-}
-
-.home__subtitle {
-  position: relative;
-  font-size: 20px;
-  padding-left: 5.4rem;
-  font-weight: var(--font-normal);
-  margin-bottom: 18px;
-}
-
-.home__subtitle::before {
-  content: '';
-  position: absolute;
-  width: 70px;
-  height: 1px;
-  background-color: var(--text-color);
-  left: 0;
-  top: 1rem;
 }
 
 .home__description {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './project.css';
 
- const Project = ({title, img, onClick}) => {
+ const MyProject = ({title, img, onClick}) => {
    return (
     <li className="project" onClick={onClick}>
         <img 
@@ -14,4 +14,4 @@ import './project.css';
    )
 }
 
-export default Project;
+export default MyProject;
