@@ -30,6 +30,15 @@ const Navbar = () => {
     setActiveLink(hash);
     setIsScrolling(true);
 
+       
+    const target = document.querySelector(hash);
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+
     setTimeout(() => {
       setIsScrolling(false);
     }, 1000);
