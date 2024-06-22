@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
-
 :root {
    --header-height: 4rem;
 
  /* COLORS */
-   --container-color: #ededed;
-   --body-color: #ededed;
-   --text-color: #010101;
-   --title-color: #611b1e;
-   --title-color-dark: #2c130f;
+   --container-color: #181515;
+   --body-color: #181515;
+   --text-color: #c7c6c2;
+   --title-color: #770d12;
+   --title-color-dark: #4f0101;
+
+   /* --title-color: #611b1e;
+   --title-color-dark: #2c130f; */
 
  /* FONTS */
-   --body-font: "Raleway", sans-serif;
+   --body-font: "Josefin Sans", sans-serif;
    --font-normal: 400;
    --font-medium: 500;
    --font-semi-bond: 600;
+   --exrta-light: 200;
 
  /* Z-INDEX */
    --z-tooltip: 10;
@@ -45,9 +47,10 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     color: var(--title-color);
     font-weight: var(--font-semi-bond);
+    line-height: normal;
 }
 
 ul {
@@ -102,12 +105,13 @@ img {
 
 .button {
     display: inline-block;
-    background-color: var(--title-color);
+    background-color: #530408;
     color: var(--body-color);
     padding: 1.25rem 1.4rem;
     border-radius: 1rem;
     font-weight: var(--font-medium);
     transition: 0.9s;
+    color: var(--text-color);
 }
 
 .button:hover {
@@ -115,12 +119,28 @@ img {
 }
 
 .button_icon {
-    margin-left: 10px;
+    margin-left: 7px;
+    margin-top: -2px;
 }
 
 .button__flex {
     display: inline-flex;
     align-items: center;
+}
+
+.projects {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+    padding-bottom: 4rem;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: var( --exrta-light);
 }
 
 @media screen and (max-width: 992px) {
