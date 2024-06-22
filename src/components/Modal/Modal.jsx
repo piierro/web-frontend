@@ -28,7 +28,7 @@ const Modal = ({isOpen, onClose, project}) => {
         <div className="modal" onClick={handleOverlayClick}>
         <div className="modal-content">
             <span className="close" onClick={onClose}>&times;</span>
-            <h2 className="modal-title">{project.title}</h2>
+            <h2 className="modal-title">{project.title}</h2>            
             <img className="modal-img" src={project.imgBig} alt={project.title} />
             <p className="modal-description">{project.description}</p>
             {project.gitHubLink && (

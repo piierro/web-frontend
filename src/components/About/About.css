@@ -9,7 +9,7 @@
     height: 480px;
     border-radius: 1.5rem;
     justify-self: center;
-    background-color: grey;
+    border: 5px solid rgba(255, 252, 252, 0.3);
 }
 
 .about__info {
@@ -19,12 +19,13 @@
 }
 
 .about__box {
-    background-color: #fff;
-    box-shadow: 9px -11px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    box-shadow: 9px -11px 8px rgba(255, 255, 255, 0.1);
     border: 1px solid rgb(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    border: 1px solid var(--text-color);
 }
 
 .about__title {

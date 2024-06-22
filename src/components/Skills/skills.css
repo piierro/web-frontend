@@ -3,11 +3,11 @@
 }
 
 .skills__content {
-    border: 1px solid rgb(0, 0, 0, 0.2);
-    box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 13px 12px 8px rgba(255, 255, 255, 0.1);
     padding: 3rem 5rem;
     border-radius: 2rem;
-    background-color: #ffffff;
+    background-color: var(--cobtainer-color);
 }
 
 .skills__title {
@@ -16,6 +16,7 @@
     font-weight: var(--font-semi-bond);
     text-align: center;
     margin-bottom: 40px;
+    color: var(--text-color);
 }
 
 .skills__group {

@@ -2,11 +2,14 @@
    --header-height: 4rem;
 
  /* COLORS */
-   --container-color: #ededed;
-   --body-color: #ededed;
-   --text-color: #010101;
-   --title-color: #611b1e;
-   --title-color-dark: #2c130f;
+   --container-color: #181515;
+   --body-color: #181515;
+   --text-color: #c7c6c2;
+   --title-color: #770d12;
+   --title-color-dark: #4f0101;
+
+   /* --title-color: #611b1e;
+   --title-color-dark: #2c130f; */
 
  /* FONTS */
    --body-font: "Josefin Sans", sans-serif;
@@ -102,12 +105,13 @@ img {
 
 .button {
     display: inline-block;
-    background-color: var(--title-color);
+    background-color: #530408;
     color: var(--body-color);
     padding: 1.25rem 1.4rem;
     border-radius: 1rem;
     font-weight: var(--font-medium);
     transition: 0.9s;
+    color: var(--text-color);
 }
 
 .button:hover {
