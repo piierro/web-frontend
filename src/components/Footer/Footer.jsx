@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
         <div className="footer__container container">
             <h2 className="footer__title">Bye Bye
-              <span className='emoji'>🍁</span>
+              <span className='emoji'>🩸</span>
             </h2>
         </div>
     </footer>

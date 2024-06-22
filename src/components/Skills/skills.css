@@ -49,4 +49,22 @@
  .skills__content  {
     padding: 2rem;
  }
+ .skills__group {
+    justify-content: space-around;
+ }
+ .skills__name {
+    font-size: 24px;
+}
+.skills__level {
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 575px) {
+    .skills__content {
+        box-shadow: 8px 6px 8px rgba(255, 255, 255, 0.1);
+    }
+    .skills__group {
+        justify-content: center;
+    }
 }

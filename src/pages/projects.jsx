@@ -10,11 +10,13 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const openModal = (project) => {
+    document.body.classList.add('modal-open');
     setSelectedProject(project);
     setIsOpen(true);
   }
 
   const closeModal = () => {
+    document.body.classList.remove('modal-open');
     setIsOpen(false);
     setSelectedProject(null);
   }

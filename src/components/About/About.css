@@ -5,6 +5,10 @@
 }
 
 .about__img {
+    background: url(../../assets/photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 350px;
     height: 480px;
     border-radius: 1.5rem;
@@ -26,6 +30,13 @@
     text-align: center;
     padding: 1rem 1.25rem;
     border: 1px solid var(--text-color);
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.about__box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
 .about__title {
@@ -41,6 +52,17 @@
 
 .about__description {
     padding: 0 4rem 0 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.link-about {
+    color: var(--title-color);
+    font-size: 18px;
+}
+.link-about:hover {
+    color: var(--text-color);
+    transition: .3s;
 }
 
 @media screen and (max-width: 992px) {
@@ -74,4 +96,17 @@
     .about__description {
         padding: 0;
     }
+}
+
+@media screen and (max-width: 470px) {
+    .about__img {
+        height: 400px;
+    }
+    .about__info {
+        grid-template-columns: repeat(2, 150px);
+    }
+    .about__title {
+        font-size: 22px;
+    }
+
 }
