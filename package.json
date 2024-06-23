@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint": "eslint --fix"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,16 +35,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@eslint/compat": "^1.1.0",
-    "@eslint/js": "^9.5.0",
-    "eslint": "^9.5.0",
-    "eslint-plugin-react": "^7.34.3",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "globals": "^15.6.0"
-  },
-  "overrides": {
-    "eslint": "^9.5.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
