@@ -1,9 +1,9 @@
 import React from 'react';
 import './project.css';
 
- const MyProject = ({title, img, onClick}) => {
+ const MyProject = ({title, img}) => {
    return (
-    <li className="project" onClick={onClick}>
+    <li className="project">
         <img 
           src={img}
           alt={title}
