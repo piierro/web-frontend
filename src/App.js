@@ -8,16 +8,16 @@ import Projects from './pages/projects';
 
 function App() {
   return (
-   <>
-     <Navbar />
+    <>
+      <Navbar />
      
-     <main className='main'>
-       <Home />
-       <About />
-       <Skills />
-       <Projects />
-     </main>
-     <Footer />
+      <main className='main'>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+      </main>
+      <Footer />
     </>
   );
 }
