@@ -22,9 +22,9 @@ const About = () => {
                 </p>
                 <p className="about__description">
                 In September 2023, I began to intensively study layout, animation 
-                and adaptation. It was a fun activity. Later I switched to Javascript,
+                and adaptation. It was a fun activity. Later I switched to JavaScript,
                 I have basic knowledge (I still plan to understand algorithms).
-                At the beginning of 2024, I learned about TopScript, and a little
+                At the beginning of 2024, I learned about TypeScript, and a little
                 later about React and various libraries. At the moment I know a lot, 
                 but at the same time little. This is not enough, I plan to continue my 
                 journey and find out what awaits me in the future
