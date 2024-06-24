@@ -1,31 +1,26 @@
-import icon1 from '../assets/projects/icon1.jpg';
-import icon2 from '../assets/projects/icon2.jpg';
-import icon3 from '../assets/projects/icon3.jpg';
-
+import iconMy from '../assets/projects/icon4.jpg';
 
 const myProjects = [
   {
-    title: "It's hard to concentrate",
+    title: "Production Product",
     skills: "CSS JS",
-    img: icon1,
-    description: "",
-    gitHubLink: ""
+    img: iconMy,
+    description: `(In development)`,
+    gitHubLink: "https://github.com/piierro/production-project"
   },
   {
-    title: "Closing tag",
+    title: "This project",
     skills: "CSS JS",
-    img: icon2,
-    description: "",
-    gitHubLink: ""
+    img: iconMy,
+    description: `The project was created to demonstrate your knowledge and practice.`,
+    gitHubLink: "https://github.com/piierro/web-frontend"
 
   },
   {
-    title: "Mesto",
+    title: "Layout on Vue",
     skills: "CSS JS",
-    img: icon3,
-    description: "",
-    gitHubLink: ""
-
+    img: iconMy,
+    description: `(In development)`
   }
 ]
 
