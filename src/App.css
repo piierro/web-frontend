@@ -8,9 +8,6 @@
    --title-color: #770d12;
    --title-color-dark: #4f0101;
 
-   /* --title-color: #611b1e;
-   --title-color-dark: #2c130f; */
-
  /* FONTS */
    --body-font: "Josefin Sans", sans-serif;
    --font-normal: 400;
@@ -70,6 +67,27 @@ button {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Стили для всего скроллбара */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+/* Стили для трека скроллбара (background) */
+::-webkit-scrollbar-track {
+  background: #181515; /* Цвет трека */
+}
+  
+/* Стили для бегунка скроллбара (thumb) */
+::-webkit-scrollbar-thumb {
+    background: #770d12; /* Цвет бегунка */
+    border-radius: 5px; /* Закругленные углы бегунка */
+}
+  
+/* Стили для бегунка скроллбара при наведении */
+::-webkit-scrollbar-thumb:hover {
+    background: #4f0101; /* Цвет бегунка при наведении */
 }
 
 .section {

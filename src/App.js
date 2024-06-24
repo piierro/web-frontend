@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Navbar />
-     
       <main className='main'>
         <Home />
         <About />
