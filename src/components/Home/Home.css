@@ -183,7 +183,6 @@
   }
   .home__img {
     order: initial;
-    justify-self: flex-end;
     width: 250px;
     height: 250px;
     box-shadow: inset 0 0 0 6px rgb(225 225 225 / 30%);
@@ -202,9 +201,22 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 470px) {
   .home__img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+  }
+  .home__social-icon {
+    font-size: 2.5rem;
+  }
+  .button {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home__img {
+    justify-self: flex-end;
+    margin-left: -20px;
   }
 }

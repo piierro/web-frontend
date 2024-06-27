@@ -200,12 +200,21 @@ img {
 
 @media screen and (max-width: 470px) {
     .container {
-        margin: 0 40px;
+        margin: 40px;
     }
     .projects {
         grid-template-columns: 1fr;  
         column-gap: 15px;
 	    row-gap: 15px;
         justify-items: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        margin: 20px;
+    }
+    .section {
+        padding: 1rem 0 2rem;
     }
 }
